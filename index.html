@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title></title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Viagem dos Sonhos!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+<section>
+    <h2>Conheça nossos pacotes</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula orci, eget laoreet nisl. Praesent quis
+        nibh at quam pharetra feugiat sed et urna. Aliquam eu pellentesque ligula. Integer pretium lacinia ex, in
+        maximus sem dapibus ac. Nam euismod auctor purus, vel facilisis nulla facilisis sed. Vestibulum facilisis quis
+        nisl eu fermentum. Praesent venenatis lacinia velit, sit amet laoreet eros pretium sit amet. Mauris nec nulla
+        mattis, tempor erat et, scelerisque augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at
+        vehicula orci, eget laoreet nisl. Praesent quis nibh at quam pharetra feugiat sed et urna. Aliquam eu
+        pellentesque ligula. Integer pretium lacinia ex, in maximus sem dapibus ac. Nam euismod auctor purus, vel
+        facilisis nulla facilisis sed. Vestibulum facilisis quis nisl eu fermentum. Praesent venenatis lacinia velit,
+        sit amet laoreet eros pretium sit amet. Mauris nec nulla mattis, tempor erat et, scelerisque augue.
+        <br>
+        <br>
+        <a href="https://www.google.com.br">Clique aqui!</a>
+        <br>
+        <hr>
+    </p>
+    <figure>
+        <img src="img/bitcoin.png" alt="Imagem de Chalé em Gramado">
+        <figcaption>Gramado</figcaption> <!--Legenda-->
+    </figure>
+    <figure>
+        <img src="img/bitcoin.png" alt="Praia em Porto Seguro">
+        <figcaption>Porto Seguro</figcaption>
+    </figure>
+    <figure>
+        <img src="img/bitcoin.png" alt="Rio de Janeiro visto de cima">
+        <figcaption>Rio de Janeiro</figcaption>
+    </figure>
+</section>
+<video controls width="50px">
+    <source src="img/bitcoin.png" type="img/bitcoin.mp4">
+    <source src="img/bitcoin.png" type="img/bitcoin.mp4">
+    <!--O texto só será exibido em navegadores que não suportam o elemento <video> -->
+    Seu navegador não suporta o formato do vídeo! <a href="img/bitcoin.png">Clique aqui para baixar</a>
+</video>
+<br>
+<br>
+<section>
+    <h2>Taxas e Serviços</h2>
+    <p>Veja nossas taxas para serviços</p>
+    <table style="width: 30%" border>
+        <caption>Descrição dos Serviços e respectivos valores</caption>
+        <thead>
+            <tr>
+                <th>Serviço</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Reserva de hotel</td>
+                <td>R$150</td>
+            </tr>
+            <tr>
+                <td>Compra de passagens</td>
+                <td>R$100</td>
+            </tr>
+            <tr>
+                <td>Aluguel de carros</td>
+                <td>R$50</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2>Contato</h2>
+    <form action="" method="get" target="_top">
+
+
+        <fieldset>
+            <legend>Dados da Viagem:</legend>
+            <label>Nome</label><br>
+            <input type="text" name="nome">
+            <br>
+
+
+            <label>Email</label><br>
+            <input type="email" required name="email">
+            <br>
+
+
+            <label>Data de ida</label><br>
+            <input type="date" name="dataIda">
+            <br>
+
+
+            <label>Data de volta</label><br>
+            <input type="date" name="dataVolta">
+            <br>
+
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qtdPessoas">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Quais serviços deseja contratar?</legend>
+            <label>
+                <input type="checkbox" name="passagens" value="Passagens">Compra de Passagens
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="alugel" value="Veiculos">Aluguel de Veículo
+            </label>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Escolha a forma de pagamento:</legend>
+            <label>
+                <input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+            </label>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="Boleto Bancário">Boleto Bancário
+            </label>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="PIX">PIX
+            </label>
+            <br>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Escolha o prazo para pagamento:</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">À Vista</option>
+                <option value="5x">5x Sem juros</option>
+                <option value="10x">10x Com juros</option>
+            </select>
+        </fieldset>
+
+
+        <br>
+        <label>Comentário</label><br>
+        <textarea rows="5" name="comentario"></textarea>
+        <br>
+
+
+        <button>Salvar</button>
+    </form>
+</section>
+<br>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+<footer>Desenvolvido por Itallo Caetano</footer>
+
+
+</html>
